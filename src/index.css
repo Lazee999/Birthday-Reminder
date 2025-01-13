@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-light: #ee9ca7;
+  --bg-dark: #42275a;
+  --primary-font: 'Playwrite AU SA', sans-serif;
+  --secondary-font: 'Josefin Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: var(--primary-font);
+  background: linear-gradient(var(--bg-light), #ffdde1);
+  transition: background 0.3s;
+}
+
+body.dark {
+  background: linear-gradient(var(--bg-dark), #242424);
+}
+
+button {
+  cursor: pointer;
+}
