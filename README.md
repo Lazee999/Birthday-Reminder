@@ -21,12 +21,6 @@ Welcome to the **Birthday Reminder App**, a sleek and modern web application bui
 
 ---
 
-## Screenshots 📸
-
-> Add some images or GIFs of your app to showcase its features!
-
----
-
 ## Installation & Setup 🚀
 
 Follow these steps to get the app up and running locally:
